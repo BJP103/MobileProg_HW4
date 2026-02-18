@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import {Test} from './component/taskcard.jsx';
+import {Task} from './component/TaskCard.jsx';
+import {Board} from './component/board.jsx';
 
 function App() {
   return (
     <div className="App">
 
       <header className="App-header">
-        <Test title={'Hello'} description={'Test'}></Test>
+        <Board></Board>
         {/*
         <img src={logo} className="App-logo" alt="logo" />
         <p>

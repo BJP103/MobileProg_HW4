@@ -2,6 +2,7 @@
     background-color: gray;
     padding: 25px;
     border-radius: 15px;
+    margin: 10px;
 }
 .task button{
     color: white;

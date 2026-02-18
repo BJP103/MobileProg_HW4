@@ -1,0 +1,18 @@
+.task{
+    background-color: gray;
+    padding: 25px;
+    border-radius: 15px;
+}
+.task button{
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 100;
+    border-radius: 10px;
+}
+.task button:active{
+    transform: scale(.75);
+    transition: .1s ease-in-out;
+}
